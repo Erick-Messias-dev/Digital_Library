@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DigitalLibrary.Modelos;
+﻿namespace DigitalLibrary.Modelos;
 
 internal class LivroFiccao : Livro
 {
@@ -19,5 +13,6 @@ internal class LivroFiccao : Livro
     {
         base.ExibirInformacao();
         Console.WriteLine($"Descrição: {Descricao}");
+        
     }
 }
